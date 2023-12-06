@@ -72,9 +72,9 @@ def ha_dev_type(device):
     return DEV_TYPE_TO_HA.get(device.device_type)
 
 
-FILTER_LIFE_SUPPORTED = ["LV-PUR131S", "Core200S", "Core300S", "Core400S", "Core600S", "Core100S"]
-AIR_QUALITY_SUPPORTED = ["LV-PUR131S", "Core300S", "Core400S", "Core600S", "Core100s"]
-PM25_SUPPORTED = ["Core300S", "Core400S", "Core600S", "Core100s"]
+FILTER_LIFE_SUPPORTED = ["LV-PUR131S", "Core200S", "Core300S", "Core400S", "Core600S", "Vital100S"]
+AIR_QUALITY_SUPPORTED = ["LV-PUR131S", "Core300S", "Core400S", "Core600S", "Vital100s"]
+PM25_SUPPORTED = ["Core300S", "Core400S", "Core600S", "Vital100s"]
 
 SENSORS: tuple[VeSyncSensorEntityDescription, ...] = (
     VeSyncSensorEntityDescription(
