@@ -1,5 +1,6 @@
 {
   "domain": "custom_vesync",
+  "version": "0.1.0",
   "name": "Custom_VeSync",
   "codeowners": ["@markperdue", "@webdjoe", "@thegardenmonkey", "@cdnninja"],
   "config_flow": true,
