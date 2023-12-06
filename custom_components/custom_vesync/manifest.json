@@ -1,8 +1,8 @@
 {
   "domain": "custom_vesync",
-  "version": "0.1.0",
-  "name": "Custom_VeSync",
-  "codeowners": ["@markperdue", "@webdjoe", "@thegardenmonkey", "@cdnninja"],
+  "name": "Custom VeSync",
+  "version": "0.2.0",
+  "codeowners": ["@markperdue", "@webdjoe", "@thegardenmonkey"],
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/vesync",
   "iot_class": "cloud_polling",
