@@ -1,6 +1,6 @@
 {
-  "domain": "vesync",
-  "name": "VeSync",
+  "domain": "custom_vesync",
+  "name": "Custom_VeSync",
   "codeowners": ["@markperdue", "@webdjoe", "@thegardenmonkey", "@cdnninja"],
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/vesync",
